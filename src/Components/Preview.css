@@ -1,0 +1,90 @@
+.preview {
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  color: #333; 
+}
+
+.preview h1, .preview h2, .preview h3, .preview h4, .preview h5, .preview h6 {
+  margin-top: 1rem; 
+  margin-bottom: 0.5rem; 
+  font-weight: bold; 
+}
+
+.preview h1 {
+  font-size: 2em;
+  color: black;
+}
+.preview h2 {
+  font-size: 1.5em;
+  color: black;
+}
+.preview p{
+  font-size: 0.9rem;
+}
+
+.preview p {
+  margin: 0.5rem 0; 
+  color: grey;
+}
+
+.preview ul, .preview ol {
+  margin: 0.5rem 0; 
+  padding-left: 1.5rem; 
+}
+
+.preview li {
+  margin-bottom: 0.25rem; 
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.preview ul {
+  list-style-type: disc;
+}
+.preview ol {
+  list-style-type: decimal;
+}
+
+.preview .ql-font-monospace {
+  font-family: monospace;
+}
+
+.preview .ql-font-serif {
+  font-family: serif;
+}
+
+.preview blockquote {
+  border-left: 4px solid #ccc; 
+  padding-left: 1rem; 
+  color: #666; 
+  font-style: italic; 
+  margin: 1rem 0; 
+}
+
+.preview a {
+  color: blue; 
+  text-decoration: underline; 
+}
+
+.preview img {
+  max-width: 70%; 
+  height: 70%; 
+  margin: 0.5rem 0; 
+}
+
+.preview iframe {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.preview .ql-align-center {
+  text-align: center; 
+}
+
+.preview .ql-align-right {
+  text-align: right; 
+}
+
+.preview .ql-clean {
+  display: none; 
+}
