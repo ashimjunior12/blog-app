@@ -8,7 +8,8 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
-    
   },
-  
+  build: {
+    outDir: 'build/client', // Change this to your desired output directory
+  },
 });
